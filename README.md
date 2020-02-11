@@ -12,9 +12,9 @@ Instead of pinning the values of the rules by hand and determine each time which
 we can have the parameters stored in a database and class reflect the passay library every time 
 accordingly by implementing them.
 
-Rules used and their constructors dynamically produced based on their documentation
+###Rules used and their constructors dynamically produced based on their documentation
 ===================================================================================
-LengthRule: https://www.passay.org/javadocs/org/passay/LengthRule.html
+LengthRule: https://www.passay.org/javadocs/org/passay/LengthRule.html /n
 CharacterRule:  http://www.passay.org/javadocs/org/passay/CharacterRule.html
 WhiteSpaceRule: http://www.passay.org/javadocs/org/passay/WhitespaceRule.html
 
