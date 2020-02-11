@@ -20,32 +20,4 @@ CharacterRule:  http://www.passay.org/javadocs/org/passay/CharacterRule.html
 
 WhiteSpaceRule: http://www.passay.org/javadocs/org/passay/WhitespaceRule.html
 
-In this example we have the parameters stored as xml-like string and retrieve them accordingly
-e.x.
-	<PasswordPolicy>
-		<Rule>
-			<Name>LengthRule</Name>
-			<arg0 type="int">8</arg0>
-			<arg1 type="int">16</arg1>
-		</Rule>
-		<Rule>
-			<Name>CharacterRule</Name>
-			<arg0 type="EnglishCharacterData">UpperCase</arg0>
-			<arg1 type="int">5</arg1>
-		</Rule>
-		<Rule>
-			<Name>CharacterRule</Name>
-			<arg0 type="EnglishCharacterData">LowerCase</arg0>
-			<arg1 type="int">2</arg1>
-		</Rule>
-		<Rule>
-			<Name>CharacterRule</Name>
-			<arg0 type="EnglishCharacterData">Digit</arg0>
-			<arg1 type="int">1</arg1>
-		</Rule>
-		<Rule>
-			<Name>CharacterRule</Name>
-			<arg0 type="EnglishCharacterData">Special</arg0>
-			<arg1 type="int">3</arg1>
-		</Rule>
-     </PasswordPolicy>
+
